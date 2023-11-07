@@ -27,7 +27,7 @@ public class Materia {
         return this.correlativas.stream().allMatch(materiaCorrelativa -> alumno.tenesCorrelativas(materiaCorrelativa));
     }
 
-    public boolean tenesCorrelativas() {
+    public boolean tieneCorrelativas() {
         return !this.correlativas.isEmpty();
     }
 }

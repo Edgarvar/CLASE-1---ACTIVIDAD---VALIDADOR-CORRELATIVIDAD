@@ -26,6 +26,6 @@ public class Inscripcion {
     }
 
     public boolean aprobada() {
-        return !this.materia.tenesCorrelativas() || this.materia.puedeCursar(this.alumno);
+        return !this.materia.tieneCorrelativas() || this.materia.puedeCursar(this.alumno);
     }
 }
